@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ebookfrenzy.foodon">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+       >
+
+
+
+        <activity
+            android:name="com.ebookfrenzy.foodon.DeliveryFoodPanel.Delivery_ShippingOrder"
+            android:label="Ship Orders">
+
+        </activity>
+        <activity
+            android:name="com.ebookfrenzy.foodon.DeliveryFoodPanel.DeliveryShipOrderView"
+            android:label="Ship Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.DeliveryFoodPanel.DeliveryPendingOrderView"
+            android:label="Pending Orders" />
+        <activity android:name="com.ebookfrenzy.foodon.Delivery_FoodPanelBottomNavigation" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Delivery_SendOtp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Delivery_ForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Delivery_Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Delivery_LoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Delivery_VerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Delivery_registeration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.ChefPreparedOrderView"
+            android:label="Prepared Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.ChefPreparedOrder"
+            android:label="Prepared Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.ChefOrdertobePrepareView"
+            android:label="Orders to be Prepared" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.ChefOrderTobePrepared"
+            android:label="Orders to be Prepared" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerPaymentOTP"
+            android:label="Online Payment" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerOnlinePayment"
+            android:label="Online Payment" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerPayment"
+            android:label="Payable Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.PayableOrders"
+            android:label="Payable Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.PendingOrders"
+            android:label="Pending Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.Chef_order_dishes"
+            android:label="Orders" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerPhoneSendOTP"
+            android:label="Mobile Number" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerPhonenumber"
+            android:label="Mobile Number" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerForgotpassword"
+            android:label="Password" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.CustomerPassword"
+            android:label="Password" />
+        <activity android:name="com.ebookfrenzy.foodon.CustomerFoodPanel.OrderDish" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.Update_Delete_Dish"
+            android:label="Home" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.chefFoodPannel.Chef_PostDish"
+            android:label="Post Dish" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ChefFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.CustomerFoodPanel_BottomNavigation"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.MainMenu"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Chefsendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Chefloginphone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.sendotp"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.LoginPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ChefVerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.VerifyPhone"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ChefForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ChefLogin"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ChooseOne"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ChefRegisteration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.ForgotPassword"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.Registeration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name="com.ebookfrenzy.foodon.MainActivity"
+            android:theme="@style/AppThemeNoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name="com.ebookfrenzy.foodon.SendNotification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

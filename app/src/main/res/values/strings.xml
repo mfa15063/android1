@@ -1,0 +1,118 @@
+<resources>
+
+    <string name="app_name">Lookin Mate</string>
+
+    <string name="title_home">Home</string>
+
+    <string name="title_dashboard">Dashboard</string>
+
+    <string name="title_notifications">Notifications</string>
+    <string name="sign_up"><u>SignUp</u></string>
+    <string name="sign_in"><u>Login</u></string>
+
+
+    <string-array name="State">
+
+        <item>Bahawalpur</item>
+
+        <item>Lahore</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="shipper">
+
+        <item>Shipper 1</item>
+
+        <item>Shipper 2</item>
+
+    </string-array>
+
+
+    -
+    <string-array name="DishName">
+
+        <item>Roti Salan</item>
+
+        <item>Dal Rice</item>
+
+        <item>Fish</item>
+
+        <item>Chicken</item>
+
+        <item>Chinese Rice</item>
+
+        <item>Biryani</item>
+
+        <item>Paratha Achar</item>
+
+        <item>Pulao</item>
+
+        <item>Aloo Paratha</item>
+
+        <item>zeera chawal</item>
+
+        <item>chicken Kofty</item>
+
+        <item>Gulab Jamun</item>
+
+        <item>Tomato ketchup</item>
+
+        <item>Fries</item>
+
+        <item>Palak Paneer</item>
+
+        <item>Naan Khulcha</item>
+
+        <item>Makki di roti</item>
+
+        <item>Gobi Partha</item>
+
+        <item>Sindhi Biryani</item>
+
+        <item>Aloo tikki</item>
+
+        <item>Bhindi Fry</item>
+
+        <item>Dum Biryani</item>
+
+        <item>Rumali roti</item>
+
+        <item>Dal Makhni</item>
+
+        <item>Samosa</item>
+
+        <item>Kachori</item>
+
+        <item>Aloo Palak</item>
+
+        <item>Pakora Chatni</item>
+
+        <item>Channa Chart</item>
+
+        <item>Homemade Burger</item>
+
+        <item>Mix Vegetable</item>
+
+        <item>Muffins</item>
+
+        <item>DalFry ZerraRice</item>
+
+        <item>Ras Malai</item>
+
+        <item>Makhan Roti</item>
+
+        <item>Egg Curry</item>
+
+        <item>Pomfret Fish</item>
+
+        <item>Egg Rotti</item>
+
+        <item>Dum chicken</item>
+
+        <item>Hyderabadi Chicken Biryni</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "24241413928",
+    "firebase_url": "https://foodon-c8a4b-default-rtdb.firebaseio.com",
+    "project_id": "foodon-c8a4b",
+    "storage_bucket": "foodon-c8a4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24241413928:android:e4b7618e545b75a8a93a1d",
+        "android_client_info": {
+          "package_name": "com.ebookfrenzy.foodon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24241413928-no6voc11bi07j1igvqno1623st6gnhgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebookfrenzy.foodon",
+            "certificate_hash": "ba140e1067a374303c1a6c4bb3d543173bfb901d"
+          }
+        },
+        {
+          "client_id": "24241413928-5bu1vraophsqsn8irmpduhtvuqrhd8l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIuzSE2RePf06mCZmLpNETIB9QXsdR7Ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24241413928-5bu1vraophsqsn8irmpduhtvuqrhd8l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
